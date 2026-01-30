@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <title>Giới thiệu bản thân - Hồng Loan</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: #eaf6ff;
+            color: #000;
+        }
+
+        /* MENU */
+        nav {
+            background-color: #cfe9ff;
+            padding: 15px;
+            position: sticky;
+            top: 0;
+        }
+
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: black;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        /* CONTAINER */
+        .container {
+            width: 85%;
+            margin: auto;
+            padding: 30px 0;
+        }
+
+        .section {
+            background: white;
+            border-radius: 15px;
+            padding: 30px;
+            margin-bottom: 40px;
+            box-shadow: 0 6px 15px rgba(0,0,0,0.15);
+        }
+
+        h2 {
+            margin-bottom: 20px;
+        }
+
+        /* GIỚI THIỆU */
+        .intro {
+            display: flex;
+            gap: 30px;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+
+        .intro img {
+            width: 220px;
+            border-radius: 20px;
+        }
+
+        .quote {
+            margin-top: 15px;
+            font-style: italic;
+            font-weight: bold;
+        }
+
+        /* SỞ THÍCH */
+        .gallery {
+            display: flex;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+
+        .gallery img {
+            width: 250px;
+            border-radius: 15px;
+        }
+
+        /* MEDIA */
+        .media-box{
+            text-align: center;
+        }
+
+        .media-box video{
+            width: 100%;
+            max-width: 700px;
+            border-radius: 15px;
+            box-shadow: 0 6px 18px rgba(0,0,0,0.3);
+            margin-bottom: 15px;
+        }
+
+        .media-box audio{
+            width: 80%;
+        }
+
+        /* FOOTER */
+        footer {
+            text-align: center;
+            padding: 20px;
+            color: black;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- MENU -->
+    <nav>
+        <a href="#gioithieu">Giới thiệu</a>
+        <a href="#media">Video & Audio</a>
+        <a href="#sothich">Sở thích</a>
+        <a href="#kynang">Kỹ năng</a>
+        <a href="#hoatdong">Hoạt động</a>
+    </nav>
+
+    <div class="container">
+
+        <!-- GIỚI THIỆU -->
+        <div class="section" id="gioithieu">
+            <h2> Giới thiệu bản thân</h2>
+
+            <div class="intro">
+                <div>
+                    <img src="https://i.postimg.cc/dtfkG0Yf/received-4280029872220465.jpg" alt="Ảnh cá nhân">
+                    <p class="quote">
+                        “Nếu kì tích không chiếu cố bạn, hãy biến bản thân trở thành kì tích”
+                    </p>
+                </div>
+
+                <div>
+                    <p><b>Tên:</b> Nguyễn Thị Hồng Loan</p>
+                    <p><b>Tuổi:</b> 17</p>
+                    <p><b>Chiều cao:</b> 1m55</p>
+                    <p>
+                        Là một người hoạt bát, thích khám phá những điều mới mẻ,  
+                        yêu sự sáng tạo và luôn mong muốn biến những thứ phức tạp  
+                        thành những điều mới lạ, mang sắc thái khác nhau trong cách nhìn.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <!-- VIDEO & AUDIO -->
+        <div class="section media-box" id="media">
+            <h2> Video & Audio giới thiệu</h2>
+
+            <video controls autoplay muted loop>
+                <source src="7480469932139.mp4" type="video/mp4">
+                Trình duyệt không hỗ trợ video.
+            </video>
+
+            <audio controls>
+                <source src="chao_thay_va_cac_ban_hom_nay_em_se_gioi_thieu_8b9fd0d4-9d77-4ded-aee1-d9a7a1035398_1.mp3" type="audio/mpeg">
+                Trình duyệt không hỗ trợ audio.
+            </audio>
+        </div>
+
+        <!-- SỞ THÍCH -->
+        <div class="section" id="sothich">
+            <h2> Sở thích</h2>
+
+            <h3> Vẽ tranh – vẽ tác phẩm Tràng Giang</h3>
+            <p>
+                Vẽ tranh là một phần của con người em.  
+                Em dùng những nét vẽ để sáng tạo, giúp bản thân có thêm động lực bước tiếp.
+            </p>
+
+            <div class="gallery">
+                <img src="https://i.postimg.cc/xTBGn5cc/FB-IMG-1765700518611.jpg">
+            </div>
+
+            <h3> Âm nhạc</h3>
+            <p>
+                Âm nhạc là linh hồn cũng như người bạn đồng hành  
+                trên chặng đường cô đơn và lạc lối.
+            </p>
+
+            <p>
+                <a href="https://www.youtube.com/embed/72hp9Bqfpz4" target="_blank">
+                    Cry For Me – Michita ft. Ami
+                </a>
+            </p>
+
+            <h3> Thể thao</h3>
+            <p>
+                Cầu lông và chạy bộ là những bộ môn em rất yêu thích.
+            </p>
+        </div>
+
+        <!-- KỸ NĂNG -->
+        <div class="section" id="kynang">
+            <h2> Kỹ năng</h2>
+            <h3> Viết lách</h3>
+            <p>
+                Em hay sáng tác những câu chuyện đời thường  
+                để giảm áp lực và lắng nghe chính mình.
+            </p>
+        </div>
+
+        <!-- HOẠT ĐỘNG -->
+        <div class="section" id="hoatdong">
+            <h2> Hoạt động</h2>
+
+            <img src="https://i.postimg.cc/bvktyf4R/IMG-20251214-123417.jpg"
+                 style="width:300px; border-radius:15px;">
+
+            <p style="margin-top:15px; font-size:18px;">
+                Ngày 20/10 cùng cô và các bạn
+            </p>
+        </div>
+
+    </div>
+
+    <footer>
+        💻 Website giới thiệu bản thân – Nguyễn Thị Hồng Loan
+    </footer>
+
+</body>
+</html>
